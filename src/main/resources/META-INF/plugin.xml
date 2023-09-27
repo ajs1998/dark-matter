@@ -14,8 +14,13 @@
          Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
     <description><![CDATA[
-    Enter short description for your plugin here.<br>
-    <em>most HTML tags may be used</em>
+    <p>Dark Matter color scheme for IntelliJ IDEA.</p>
+
+    <p>
+    IntelliJ's default "Dark" color scheme is disappointing.
+    There's not enough color and too many tokens are white.
+    This is my take on a dark color scheme.
+    </p>
   ]]></description>
 
     <!-- Product and plugin compatibility requirements.
