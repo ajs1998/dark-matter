@@ -1,6 +1,6 @@
 package dev.alexjs.theme.darkmatter;
 
-public class Main {
+public class MainJava {
 
     private static final int x = 0;
 
