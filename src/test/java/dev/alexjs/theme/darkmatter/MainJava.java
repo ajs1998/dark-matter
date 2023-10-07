@@ -7,7 +7,7 @@ public class MainJava {
     public static final String y = "Hello, world!";
 
     public static void main(String[] args) {
-        System.out.println("Hello, world!");
+        System.out.println(y);
     }
 
 }
