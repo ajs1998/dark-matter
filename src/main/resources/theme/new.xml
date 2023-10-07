@@ -13,21 +13,18 @@
     <option name="DEFAULT_CLASS_NAME">
         <value>
             <option name="FOREGROUND" value="3ddbd9"/>
-
             <option name="BACKGROUND" value="1e1f22"/>
         </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT">
         <value>
             <option name="FOREGROUND" value="42be65"/>
-
             <option name="FONT_TYPE" value="2"/>
         </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT_TAG">
         <value>
             <option name="FOREGROUND" value="42be65"/>
-
             <option name="EFFECT_TYPE" value="1"/>
         </value>
     </option>
@@ -51,7 +48,6 @@
             <option name="FOREGROUND" value="82cfff"/>
         </value>
     </option>
-
     <option name="DEFAULT_HIGHLIGHTED_REFERENCE">
         <value>
             <option name="FOREGROUND" value="42be65"/>
@@ -108,7 +104,6 @@
     <option name="DEFAULT_STATIC_FIELD">
         <value>
             <option name="FOREGROUND" value="be95ff"/>
-
             <option name="FONT_TYPE" value="2"/>
         </value>
     </option>
@@ -152,7 +147,6 @@
     <option name="TODO_DEFAULT_ATTRIBUTES">
         <value>
             <option name="FOREGROUND" value="08bdba"/>
-
             <option name="FONT_TYPE" value="2"/>
             <option name="ERROR_STRIPE_COLOR" value="977ab"/>
         </value>
