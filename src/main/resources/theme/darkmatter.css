@@ -1,0 +1,48 @@
+.darkMatter {
+    --textForeground: #bcbec4;
+    --textBackground: #1e1f22;
+    --comment: #8d8d8d; /*--gray50*/
+    --semi: #ff8389; /*--red40*/
+    --tag: #f1c21b; /*--yellow30*/
+    --string: #42be65; /*--green40*/
+    --docCommentTagValue: #9ef0f0; /*--teal20*/
+    --className: #3ddbd9; /*--teal30*/
+    --todo: #08bdba; /*--teal40*/
+    --typeParamNameAttr: #009d9a; /*--teal50*/
+    --staticMethod: #82cfff; /*--cyan30*/
+    --functionId: #82cfff; /*--cyan30*/
+    --instanceMethod: #33b1ff; /*--cyan40*/
+    --stringEscape: #1192e8; /*--cyan50*/
+    --keyword: #78a9ff; /*--blue40*/
+    --staticField: #be95ff; /*--purple40*/
+}
+
+.mediums {
+    --red30: #ffb3b8;
+    --red40: #ff8389;
+    --red50: #fa4d56;
+    --orange30: #ffb784;
+    --orange40: #ff832b;
+    --orange50: #eb6200;
+    --yellow30: #f1c21b;
+    --yellow40: #d2a106;
+    --yellow50: #b28600;
+    --green30: #6fdc8c;
+    --green40: #42be65;
+    --green50: #24a148;
+    --teal30: #3ddbd9;
+    --teal40: #08bdba;
+    --teal50: #009d9a;
+    --cyan30: #82cfff;
+    --cyan40: #33b1ff;
+    --cyan50: #1192e8;
+    --blue30: #a6c8ff;
+    --blue40: #78a9ff;
+    --blue50: #4589ff;
+    --purple30: #d4bbff;
+    --purple40: #be95ff;
+    --purple50: #a56eff;
+    --magenta30: #ffafd2;
+    --magenta40: #ff7eb6;
+    --magenta50: #ee5396;
+}
