@@ -2,34 +2,16 @@
     --textForeground: #bcbec4;
     --textBackground: #1e1f22;
     --comment: #8d8d8d; /*--gray50*/
+    --docComment: #24a148; /*--green50*/
+    --docCommentTag: #42be65; /*--green40*/
     --semi: #ff8389; /*--red40*/
     --tag: #f1c21b; /*--yellow30*/
-    --string: #42be65; /*--green40*/
+    --string: #6fdc8c; /*--green30*/
     --docCommentTagValue: #9ef0f0; /*--teal20*/
     --className: #3ddbd9; /*--teal30*/
     --todo: #08bdba; /*--teal40*/
     --typeParamNameAttr: #009d9a; /*--teal50*/
-    --staticMethod: #82cfff; /*--cyan30*/
-    --functionId: #82cfff; /*--cyan30*/
-    --instanceMethod: #33b1ff; /*--cyan40*/
-    --stringEscape: #1192e8; /*--cyan50*/
-    --keyword: #78a9ff; /*--blue40*/
-    --staticField: #be95ff; /*--purple40*/
-}
-
-.darkMatter2 {
-    --textForeground: #bcbec4;
-    --textBackground: #1e1f22;
-    --comment: #8d8d8d; /*--gray50*/
-    --semi: #ff8389; /*--red40*/
-    --tag: #f1c21b; /*--yellow30*/
-    --string: #42be65; /*--green40*/
-    --docCommentTagValue: #9ef0f0; /*--teal20*/
-    --className: #3ddbd9; /*--teal30*/
-    --todo: #08bdba; /*--teal40*/
-    --typeParamNameAttr: #009d9a; /*--teal50*/
-    --functionId: #82cfff; /*--cyan30*/
-    --number: #82cfff; /*--cyan30*/
+    --methodFunction: #82cfff; /*--cyan30*/
     --instanceMethod: #33b1ff; /*--cyan40*/
     --stringEscape: #1192e8; /*--cyan50*/
     --keyword: #78a9ff; /*--blue40*/

@@ -13,4 +13,4 @@
 
 ## TODO
 
-- `wrapper` task with configurable version and distribution type (`if $CI ? "BIN" : "ALL"`)
+- [Add custom icon](https://plugins.jetbrains.com/docs/intellij/plugin-icon-file.html?from=jetbrains.org)

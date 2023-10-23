@@ -5,6 +5,8 @@
  * LICENSE file in the root directory of this source tree.
  */
 
+/* taken from https://github.com/carbon-design-system/carbon/blob/v10/packages/colors/src/colors.js */
+
 export const black = '#000000'; // 1.27
 export const black100 = black;
 export const blackHover = '#212121'; // 1.02

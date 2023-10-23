@@ -2,25 +2,7 @@
   "name": "Dark Matter",
   "dark": true,
   "author": "Alex Sweeney",
-  "editorScheme": "/theme/darkmatter.xml",
-  "colors": {
-    "textForeground": "#bcbec4",
-    "textBackground": "#1e1f22",
-    "comment": "#8d8d8d",
-    "string": "#42be65",
-    "docCommentTagValue": "#9ef0f0",
-    "className": "#3ddbd9",
-    "functionId,number,metadata": "#82cfff",
-    "instanceMethod": "#57aaf7",
-    "stringEscape": "#1192e8",
-    "keyword": "#78a9ff",
-    "semi": "#ff8389",
-    "staticField": "#be95ff",
-    "staticMethod": "#81cae6",
-    "tag": "#d5b778",
-    "todo": "#08bdba",
-    "typeParamNameAttr": "#009d9a"
-  },
+  "editorScheme": "/theme/Dark Matter.xml",
   "ui": {
   }
 }

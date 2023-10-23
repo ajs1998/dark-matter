@@ -8,6 +8,7 @@ public class MainJava {
 
     public static void main(String[] args) {
         System.out.println(y);
+        Math.floorMod(1, 2);
     }
 
 }
