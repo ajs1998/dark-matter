@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "dev.alexjs"
-version = "1.2-SNAPSHOT"
+version = "1.0"
 
 repositories {
     mavenCentral()
