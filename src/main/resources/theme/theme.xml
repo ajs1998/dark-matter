@@ -1,4 +1,4 @@
-<scheme name="Dark copy" version="142" parent_scheme="Darcula">
+<scheme name="Dark Matter" version="142" parent_scheme="Darcula">
   <colors>
     <option name="ADDED_LINES_COLOR" value="549159" />
     <option name="ANNOTATIONS_COLOR" value="8d9199" />
@@ -214,7 +214,7 @@
     </option>
     <option name="DEFAULT_DOC_COMMENT">
       <value>
-        <option name="FOREGROUND" value="24a148" />
+        <option name="FOREGROUND" value="6fdc8c" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -226,7 +226,7 @@
     </option>
     <option name="DEFAULT_DOC_COMMENT_TAG_VALUE">
       <value>
-        <option name="FOREGROUND" value="9ef0f0" />
+        <option name="FOREGROUND" value="24a148" />
       </value>
     </option>
     <option name="DEFAULT_DOC_MARKUP">
@@ -239,8 +239,16 @@
         <option name="FOREGROUND" value="bcbec4" />
       </value>
     </option>
-    <option name="DEFAULT_FUNCTION_CALL" baseAttributes="DEFAULT_IDENTIFIER" />
-    <option name="DEFAULT_FUNCTION_DECLARATION" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="DEFAULT_FUNCTION_CALL">
+      <value>
+        <option name="FOREGROUND" value="82cfff" />
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="82cfff" />
+      </value>
+    </option>
     <option name="DEFAULT_HIGHLIGHTED_REFERENCE">
       <value>
         <option name="EFFECT_COLOR" value="6b6c73" />
@@ -279,9 +287,14 @@
         <option name="FOREGROUND" value="8d8d8d" />
       </value>
     </option>
+    <option name="DEFAULT_LOCAL_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="bcbec4" />
+      </value>
+    </option>
     <option name="DEFAULT_METADATA">
       <value>
-        <option name="FOREGROUND" value="f1c21b" />
+        <option name="FOREGROUND" value="ffb784" />
       </value>
     </option>
     <option name="DEFAULT_NUMBER">
@@ -296,7 +309,7 @@
     </option>
     <option name="DEFAULT_PARAMETER">
       <value>
-        <option name="FOREGROUND" value="9ef0f0" />
+        <option name="FOREGROUND" value="bcbec4" />
       </value>
     </option>
     <option name="DEFAULT_PARENTHS">

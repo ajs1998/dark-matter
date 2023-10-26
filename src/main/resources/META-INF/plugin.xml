@@ -23,12 +23,6 @@
     </p>
   ]]></description>
 
-    <!-- Short summary of new features and bugfixes in the latest plugin version.
-         Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
-    <change-notes><![CDATA[
-    Initial release of the theme.
-  ]]></change-notes>
-
     <!-- Product and plugin compatibility requirements.
          Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
     <depends>com.intellij.modules.platform</depends>
@@ -36,6 +30,6 @@
     <!-- Extension points defined by the plugin.
          Read more: https://plugins.jetbrains.com/docs/intellij/plugin-extension-points.html -->
     <extensions defaultExtensionNs="com.intellij">
-        <themeProvider id="ed04454b-a5cc-4345-ab98-5be8512105f3" path="/theme/dark-matter.theme.json"/>
+        <themeProvider id="ed04454b-a5cc-4345-ab98-5be8512105f3" path="/theme/darkmatter.theme.json"/>
     </extensions>
 </idea-plugin>
