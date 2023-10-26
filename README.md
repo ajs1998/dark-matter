@@ -1,4 +1,4 @@
-# Dark Matter color scheme for IntelliJ
+# Dark Matter
 
 The default "Dark" color scheme is a little disappointing.
 There's not enough color and too many tokens are white.
