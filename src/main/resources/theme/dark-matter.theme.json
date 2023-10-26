@@ -2,7 +2,7 @@
   "name": "Dark Matter",
   "dark": true,
   "author": "Alex Sweeney",
-  "editorScheme": "/theme/Dark Matter.xml",
+  "editorScheme": "/theme/theme.xml",
   "ui": {
   }
 }
