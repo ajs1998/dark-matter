@@ -30,6 +30,7 @@
     <!-- Extension points defined by the plugin.
          Read more: https://plugins.jetbrains.com/docs/intellij/plugin-extension-points.html -->
     <extensions defaultExtensionNs="com.intellij">
-        <themeProvider id="ed04454b-a5cc-4345-ab98-5be8512105f3" path="/theme/darkmatter.theme.json"/>
+        <!-- Don't add the .xml extension... -->
+        <bundledColorScheme path="/theme/darkmatter.scheme"/>
     </extensions>
 </idea-plugin>

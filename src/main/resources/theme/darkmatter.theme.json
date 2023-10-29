@@ -3,7 +3,7 @@
   "author": "Alex Sweeney",
   "dark": true,
   "parentTheme": "Dark",
-  "editorScheme": "/theme/theme.xml",
+  "editorScheme": "/theme/darkmatter.scheme.xml",
   "ui": {
   }
 }
