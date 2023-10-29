@@ -1,4 +1,3 @@
-
 @SuppressWarnings(value = "deprecation")
 public class MainJava {
 
