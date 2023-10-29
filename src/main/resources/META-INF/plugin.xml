@@ -30,7 +30,12 @@
     <!-- Extension points defined by the plugin.
          Read more: https://plugins.jetbrains.com/docs/intellij/plugin-extension-points.html -->
     <extensions defaultExtensionNs="com.intellij">
-        <!-- Don't add the .xml extension... -->
+        <!--
+        Not even God knows why you can't include the .xml extension here.
+        As far as I can tell, this quirk isn't mentioned anywhere in the documentation.
+        In fact, I can't find any helpful documentation for bundledColorScheme at all.
+        I had to dig through other people's color scheme plugins to figure this out.
+        -->
         <bundledColorScheme path="/theme/darkmatter.scheme"/>
     </extensions>
 </idea-plugin>
