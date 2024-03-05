@@ -33,4 +33,9 @@ tasks {
     publishPlugin {
         token.set(System.getenv("PUBLISH_TOKEN"))
     }
+
+    wrapper {
+        gradleVersion = "8.6"
+        distributionType = Wrapper.DistributionType.ALL
+    }
 }
