@@ -17,6 +17,10 @@ dependencies {
     intellijPlatform {
         intellijIdeaCommunity("2024.2")
 
+        bundledPlugin("com.intellij.java")
+
+        pluginVerifier()
+        zipSigner()
         instrumentationTools()
     }
 }
