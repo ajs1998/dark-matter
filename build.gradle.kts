@@ -1,18 +1,24 @@
 plugins {
-    id("org.jetbrains.intellij") version "1.17.2"
+    // Configure Gradle IntelliJ Plugin
+    // Read more: https://plugins.jetbrains.com/docs/intellij/tools-intellij-platform-gradle-plugin.html
+    id("org.jetbrains.intellij.platform") version "2.0.1"
 }
 
 group = "dev.alexjs"
 
 repositories {
     mavenCentral()
+    intellijPlatform {
+        defaultRepositories()
+    }
 }
 
-// Configure Gradle IntelliJ Plugin
-// Read more: https://plugins.jetbrains.com/docs/intellij/tools-gradle-intellij-plugin.html
-intellij {
-    version.set("2023.2.4")
-    plugins.set(listOf(/* Plugin Dependencies */))
+dependencies {
+    intellijPlatform {
+        intellijIdeaCommunity("2024.2")
+
+        instrumentationTools()
+    }
 }
 
 tasks {
