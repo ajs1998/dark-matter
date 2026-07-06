@@ -1,13 +1,13 @@
 plugins {
     // Configure Gradle IntelliJ Plugin
     // Read more: https://plugins.jetbrains.com/docs/intellij/tools-intellij-platform-gradle-plugin.html
-    id("org.jetbrains.intellij.platform") version "2.0.1"
+    id("org.jetbrains.intellij.platform") version "2.17.0"
 }
 
 group = "dev.alexjs"
-
 repositories {
     mavenCentral()
+
     intellijPlatform {
         defaultRepositories()
     }
@@ -15,20 +15,19 @@ repositories {
 
 dependencies {
     intellijPlatform {
-        intellijIdeaCommunity("2024.2")
-
+        intellijIdea("2026.1")
         bundledPlugin("com.intellij.java")
 
         pluginVerifier()
         zipSigner()
-        instrumentationTools()
+//        instrumentationTools()
     }
 }
 
 tasks {
     // https://plugins.jetbrains.com/docs/intellij/build-number-ranges.html#platformVersions
     patchPluginXml {
-        sinceBuild.set("222")
+        sinceBuild.set("261")
         untilBuild.set("261.*")
     }
 
@@ -43,7 +42,7 @@ tasks {
     }
 
     wrapper {
-        gradleVersion = "8.6"
+        gradleVersion = "9.4.0"
         distributionType = Wrapper.DistributionType.ALL
     }
 }

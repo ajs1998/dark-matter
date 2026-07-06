@@ -22,6 +22,6 @@ and load the plugin from disk at `build/distributions/dark-matter.zip`
 
 Push the change to
 https://github.com/ajs1998/dark-matter
-and create a GitHub release with the updated Dark Matter version tag, e.g. `v1.9`.
+and create a GitHub release with the updated Dark Matter version tag, e.g. `1.11`.
 A GitHub action will build and publish the plugin to
 https://plugins.jetbrains.com/plugin/22804-dark-matter
