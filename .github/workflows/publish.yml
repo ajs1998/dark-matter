@@ -26,7 +26,7 @@ jobs:
           restore-keys: ${{ runner.os }}-gradle-
 
       - name: Build Plugin
-        run: ./gradlew build --stacktrace
+        run: ./gradlew buildPlugin --stacktrace
 
       - name: Sign and Publish Plugin
         env:
