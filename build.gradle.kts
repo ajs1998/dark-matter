@@ -28,7 +28,7 @@ tasks {
     // https://plugins.jetbrains.com/docs/intellij/build-number-ranges.html#platformVersions
     patchPluginXml {
         sinceBuild.set("222")
-        untilBuild.set("262.*")
+        untilBuild.set("263.*")
     }
 
     signPlugin {
