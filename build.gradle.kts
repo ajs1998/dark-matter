@@ -42,7 +42,7 @@ tasks {
     }
 
     wrapper {
-        gradleVersion = "9.4.0"
+        gradleVersion = "9.9.0"
         distributionType = Wrapper.DistributionType.ALL
     }
 }
